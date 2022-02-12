@@ -1,38 +1,57 @@
-.App {
+* {
+  font-family: poppins;
+  background-color:rgb(237,210,99);
+}
+
+.searchBar {
   text-align: center;
+  border: 20px;
+  margin: 20px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+i.fa-solid.fa-magnifying-glass {
+  margin-right: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  margin-left: 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+input{
+  text-align: center;
+  background-color: white;
+  height: 40px;
+  width: 500px;
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
+  border: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+}
+
+.btnSearch{
+  background-color: rgb(137, 60, 209);
+  padding: 5px;
+  margin: 0;
+  border: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  width: 60px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.App {
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+a {
+  text-decoration: none;  
 }
